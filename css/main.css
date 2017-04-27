@@ -95,19 +95,72 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* '*' equals as tag to 'html' */
+
+/*
+.nombre_clase
+none for tag
+# for what?
+# for what?
+
+* {
+    font-size:16px;
+    color: black;
+}
+
+h1,h2 {
+    color: #b3d4fc;
+}
+
+h1 {
+    text-align: center;
+    font-size: 120%; /* 'em' se usaba cuando no había diseño respondive
+    font-weight: bold;
+}
+ */
+p {
+    text-align: justify;
+}
+
+table th, table tr, table td {
+    width: 100%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: darkmagenta;
+}
+
+.lft {
+    float: left;
+}
 
 
+nav ul li  { /*al li que está dentro de un ul dentro del nav */
+    float: left; /* este hace que flote */
+    width: 150px; /* este les da un ancho a cada uno */
+    text-align: center; /*que es texto esté centrado en su caja */
+    list-style: none; /* le quitamos el disco de la lista */
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    /*border: 1px solid white; */
+    background-color: darkseagreen;
+    transition: background-color 2s;
+}
 
+nav ul li:hover  { /*pseudoselector que se actva cuando el ratón pasa por encima */
+    background-color: aquamarine;
+}
 
+article {
 
+    float: left;
+    width: 30%;
+}
 
-
-
-
-
-
-
-
+article button {
+    float: right;
+    width: 30%;
+}
 
 
 
