@@ -14,6 +14,7 @@
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
+<div id="wrapper">
 <header><h1>Bienvenido a mi Web</h1></header>
 <!--<span styles="font-weight:bold;"></span>   <b></b>-->
 <nav>
@@ -108,24 +109,81 @@
         <header><h2>Ejercicio de Flotantes</h2></header>
         <div class="clearfix">
             <article>
-                <header><h3>Flot 1</h3></header>
-                <div>Texto 1</div>
-                <div>Texto 2</div>
-                <button>Leer Más</button>
+                <header><h3>Video de Java Zone 2011</h3></header>
+                <div>
+                    <video controls>
+                        <source src="multimedia/JavaForever2011.mp4" type="video/mp4">
+
+                        Your browser does not support the video tag.
+                    </video>
+
+                </div>
+                <div>
+                    <div>Texto</div>
+                    <button>More</button>
+                </div>
+            </article>
+
+            <!--
+            <article>
+                <header><h3>Video de Java Zone 2012</h3></header>
+                <div>
+                    <video controls>
+                        <source src="multimedia/JavaZone2012.mp4" type="video/mp4">
+
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div>
+                    <div>
+                        Ocurre algo fatal java se desistala en todos los equipos.
+
+                    </div>
+                    <button>Leer Más</button>
+                </div>
             </article>
             <article>
-                <header><h3>Flot 2</h3></header>
-                <div>Texto 3</div>
-                <div>Texto 4</div>
-                <button>Leer Más</button>
+                <header><h3>Video de Java Zone 2013</h3></header>
+                <div class="">
+                    <video controls>
+                        <source src="multimedia/JavaZone2013.mp4" type="video/mp4">
+
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="">
+                    <div>Se trama el atraco del siglo.</div>
+                    <button>Leer Más</button>
+                </div>
             </article>
-            <article>
-                <header><h3>Flot 3</h3></header>
-                <div>Texto 5</div>
-                <div>Texto 6</div>
-                <button>Leer Más</button>
-            </article>
+      -->
         </div>
+    </section>
+
+    <header><h2>Ejemplo con Flex</h2></header>
+
+    <section>
+<div class="flex-container">
+        <article class="flex-container">
+            <header><h3>Pepito</h3></header>
+            <div>
+                <div><img src="#" alt="Foto de Pepito" /></div>
+                <div>
+                    <p>Nombre completo:</p>
+                    <p>Teléfono:</p>
+                    <p>Email:</p>
+                    <p>Código Postal:</p>
+                </div>
+                <div>
+                    <a href="#direción_fca_de_un_doc" download>Ver CV</a>
+                </div>
+            </div>
+            <div>Observaciones</div>
+        </article>
+
+</div>
+
+
     </section>
 
 </main>
@@ -136,5 +194,6 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+    </div>
 </body>
 </html>
